@@ -14,6 +14,9 @@ public class Main {
         System.out.println(employer.equals(employer2));
 
 
+        //Builder Pattern
+        BuilderSample person = new BuilderSample.Builder("Gülşah",1323).age(24).title("Uzman").build();
+        System.out.println(person.toString());
     }
 
 }
